@@ -1,0 +1,25 @@
+:root {
+    /* Colores base (tema claro) */
+    --color-primary: #2563eb;       /* Azul profesional */
+    --color-secondary: #7c3aed;    /* Morado */
+    --color-text: #1e293b;         /* Gris oscuro */
+    --color-bg: #f8fafc;           /* Fondo claro */
+    --color-card: #ffffff;         /* Blanco */
+    --color-border: #e2e8f0;       /* Borde gris claro */
+    --color-success: #10b981;      /* Verde */
+    --color-error: #ef4444;        /* Rojo */
+  
+    /* Efectos */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tema oscuro */
+  [data-theme="dark"] {
+    --color-primary: #3b82f6;
+    --color-secondary: #8b5cf6;
+    --color-text: #e2e8f0;
+    --color-bg: #1e293b;
+    --color-card: #334155;
+    --color-border: #475569;
+  }
