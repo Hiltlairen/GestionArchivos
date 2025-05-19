@@ -41,12 +41,6 @@ const FixedBar = ({ onSearch, sheets = [] }) => {
 
     return (
         <div className="fixed-bar">
-          <div className="logo-container">
-        <Link to="/" className="logo-link">
-          <span className="logo">URT</span>
-          <span className="logo-text">Unidad de Registro Territorial</span>
-        </Link>
-      </div>
             <div className="search-container">
                 <input 
                     type="text" 
