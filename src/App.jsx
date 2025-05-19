@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Inicio from './Page/Inicio';
+import EditarHoja from './Page/EditarHoja';
 import './App.css';
 
 const App = () => {
@@ -18,9 +19,8 @@ const App = () => {
       <Header theme={theme} toggleTheme={toggleTheme} />
       <div className="content" style={{ marginTop: '80px' }}> {/* Espacio para el header fijo */}
         <Routes>
-          <Route path="/" element={<Inicio />} />
-          {/* Futuras rutas: */}
-          {/* <Route path="/agregar" element={<AgregarDocumento />} /> */}
+           <Route path="/" element={<Inicio />} />
+            <Route path="/editar/:nombreHoja" element={<EditarHoja />} />
         </Routes>
       </div>
     </Router>
